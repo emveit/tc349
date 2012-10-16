@@ -1,26 +1,47 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-	width:710px;
+	.wrap {
+		margin: 0 3%;
+	}
+	article {
+		width: 200px;
+		float: left;
+		padding: 10px;
+		background: #f3f3f3;
+		margin: 10px;
+	}
+	footer {
+		clear: both;	
+	}
+	
+	body {
+	width: 800px;
 	margin: 1.5em auto;
-	padding:50px;
+	
 }
 
+	p {
+		font:Cambria;
+		font-size:14px;
+		color:#666;
+	}
+	
+	
 
-p {
-	margin: 20px;
-	width:700px;
-	color: #666;
-	font-size:14px;
-	font:Cambria;
-}
 
-h4 {
+
+h4, h2 {
 	margin: 20px;
 	width:700px;
 	color:#666;
+	font:Cambria;
+	color:#666;
 	
+}
+
+h3 {
+	padding: 10px;	
 }
 
 ul {
@@ -36,7 +57,7 @@ ul {
   color: #666;
   font:Cambria;
   list-style:none;
-  text-align: left;xsxs
+  text-align: left;
   width: 700px;
 }
 
@@ -63,3 +84,4 @@ border-left: none;
 ul#nav {
 	margin: 0;
 }
+

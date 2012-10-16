@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	width:710px;
+	margin: 1.5em auto;
+	
+}
+
+
+p {
+	margin: 20px;
+	width:475px;
+	color: #666;
+	font-size:14px;
+	font:Cambria;
+}
+
+h4 {
+	margin: 20px;
+	width:700px;
+	color:#666;
+	
+}
+
+h3 {
+	padding: 10px;	
+	color: #666;
+}
+
+
+#main {
+	width: 475px;
+	float: right;
+	margin-right: 10px;	
+}
+
+#nav {
+  background: url(textured_stripes.png);
+  color: #6FF;
+  font:Cambria;
+  list-style:none;
+  text-align: left;
+  width: 180px;
+  float: left;
+}
+
+
+#nav a {
+  color: #999;
+  padding-right: 0px;
+  padding-left: 0px;
+
+ 
+}
+
+#sidebar {
+	float: left;	
+	background: url(textured_stripes.png);
+	padding-bottom: 500px;
+}
+
+
+#nav a:hover {
+  text-decoration: none;
+  color: #999;
+}
+
