@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Trying Out jQuery</title>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+      
+$(document).ready(function(){
+var myQuote = $('#my_quote');
+myQuote.hide();
+$('.button').click(function(){
+myQuote.show(500);
+});
+});
+    </script>
+
+</head>
+<body>
+
+<h1>jQuery demo</h1>
+
+<p><em>This is me trying my first JQuery script!</em></p>
+
+<p><a href="#" class="button">Click here to show blockquote</a></p>
+
+<blockquote id="my_quote"><p>Hooray look its working! Slowly but surely I will begin to understand JavaScript and its helpfulness when designing and coding a website! I think it will add some awesome features to any future sites I create, as well as adding a fun usability aspect.</p></blockquote>
+
+</body>
+</html>
