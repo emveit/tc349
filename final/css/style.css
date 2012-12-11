@@ -231,7 +231,8 @@ a:hover { color: #8BC5BF; }
 }
 
 .print {
-	padding-top:30px;	
+	padding-top:30px;
+	padding-bottom:20px;	
 }
 
 .prints {
@@ -244,6 +245,10 @@ a:hover { color: #8BC5BF; }
 
 .alpha {
 	float:left;	
+}
+
+.alpha h2 {
+	color: #E7B44C;	
 }
 
 .beta {
